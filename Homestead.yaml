@@ -5,7 +5,7 @@ cpus: 1
 provider: virtualbox
 
 folders:
-    - map: .
+    - map: c:/Users/Echo/Documents/NEIT/Spring 2019/SE266/se266_code
       to: /home/vagrant/Code
 
 sites:
