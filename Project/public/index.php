@@ -11,10 +11,10 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
-    <title>SE_266.55</title>
+    <title>SE_266</title>
     </head>
     <body>
-        <?php include './navbar.php'; ?>
+        <?php include './NavigationTab.php'; ?>
             <div class="jumbotron shadow-lg p-3 mb-5 bg-white rounded container-fluid h-100">
                 <div class ="row" style="margin-left: 4%">
                     <div class="col-">
@@ -28,7 +28,7 @@
                 </div>
             
             
-<!-- Git Panel ------------------------------------------------------>
+<!-- Panel ------------------------------------------------------>
             <div class="col-4 mb-0">
             <img class="rounded-circle mx-auto d-block" src="./Content/generic.png" alt="Generic placeholder image" width="140" height="140">
             <h2 class = "text-center"><a href="https://github.com/echosmith/PHP-SQL-Projects">William Connolly's Git</a></h2>
@@ -56,10 +56,10 @@
                             <div id="WeekOneFiles" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
                             <div class="card-body">
                                 <div class="list-group">
-                                    <a href="../SE266/Week_1/hello.zip" class="list-group-item list-group-item-action">
-                                        Hello
-                                    </a>
-                                    <a href="../SE266/Week_1/FizzBuzz.zip" class="list-group-item list-group-item-action ">FizzBuzz</a>
+                                    <a href="../Week 1/hello.zip" class="list-group-item list-group-item-action">Hello</a>
+                                    <a href="../Week 1/FizzBuzz.zip" class="list-group-item list-group-item-action ">FizzBuzz</a>
+                                    <a href="../Week 1/Card Lab 1.zip" class="list-group-item list-group-item-action ">Credit Card</a>
+
                                 </div>
                             </div>
                     </div>
@@ -68,11 +68,6 @@
                 </div>
             </div>
         </div>
-
-
-        <?php
-            //include 'apiTest.php';
-        ?>
         <!-- Optional JavaScript -->
         <script>
             var toggler = document.getElementsByClassName("caret");

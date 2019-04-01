@@ -14,8 +14,9 @@
                                     Week One
                                 </button>
                                 <div class="dropdown-menu">
-                                    <a class="dropdown-item" href="/008002464/public_html/Spring_2019/SE266/Week_1/hello.php">Hello</a>
-                                    <a class="dropdown-item" href="/008002464/public_html/Spring_2019/SE266/Week_1/FizzBuzz.php">FizzBuzz</a>
+                                    <a class="dropdown-item" href="/008002464/public_html/Spring 2019/SE266/Week 1/hello.php">Hello</a>
+                                    <a class="dropdown-item" href="/008002464/public_html/Spring 2019/SE266/Week 1/FizzBuzz.php">FizzBuzz</a>
+                                    <a class="dropdown-item" href="/008002464/public_html/Spring 2019/SE266/Week 1/Card Lab 1.php">Credit Card</a>
                                 </div>
                             </div>
 
