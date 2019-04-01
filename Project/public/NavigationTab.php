@@ -4,7 +4,7 @@
                 <div class="bg-dark p-4">
                     <h5 class="text-white h4">SE_266 William Connolly's</h5>
                     <span class="text-muted">
-<!-------------------------------------------------- Drop Down Nav Bar -------------------------------------------------------------------------------------------------------------->
+<!--------------------------------------------------  Nav Bar -------------------------------------------------------------------------------------------------------------->
                         <ul class="nav-bar nav">
                            <a href="index.php" class="btn btn-info btn-lg" style="margin-right: 1%">
                                 <span class="glyphicon glyphicon-home"></span> Home

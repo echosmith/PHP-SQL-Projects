@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="UTF-8">
-        <title>Credit Card Lab | Week 1</title>
+    <meta charset="UTF-8">
+    <title>Credit Card Lab | Week 1</title>
     </head>
     <body style="text-align: center;">
         <h1>Calculate Months of Credit Card Interest</h1>
@@ -16,10 +16,10 @@
             Monthly Payment: <br>
             <input type="text" value="200" name="monthPay"><br><br>
             
-            <input type="submit" value="Show me the damage" name="clickMe">
+            <input type="submit" value="Show me the damage!" name="btnclk">
         </form>
         <?php
-            if (isset ($_POST['clickMe'])) 
+            if (isset ($_POST['btnclk'])) 
             {
                 
                 $owed = $_POST['amtOwed'];
@@ -31,15 +31,15 @@
                 echo "<th> Interest Paid </th>";
                 echo "<th> Owed </th>";
 
-                $bill = $owed;//Your beginning balance
+                $chrg = $owed;//user's beginning balance
 
                 for ($i = 0; $owed > 0; $i++)
                 {
-                    $intPaid = $owed * $interest / 100 / 12;//Formula for Interest Paid
+                    $intPaid = $owed * $interest / 100 / 12;//Formula - Interest Paid
 
-                    $bill2 = $owed + $intPaid;//The sum of Interest Paid
+                    $chrged = $owed + $intPaid;//Sum - Interest Paid
 
-                    $balance = $owed - $payment + $intPaid;//The remaining balance                 
+                    $balance = $owed - $payment + $intPaid;//Balance                 
 
                     if ($intPaid > $balance)
                     {
@@ -67,11 +67,11 @@
 
                 echo "</table>";
 
-                $total = $bill + $bill2;//The total amount spent over the life of the balance
+                $total = $chrg + $chrged;//The total amount spent over the life of the balance
                 echo "<br>","The total amount spent over ".$monthRow, " months is $".number_format((float)$total, 2); //Final Message
                                        
                     
-            }//clickMe close
+            }//close
 
                     else {
 
