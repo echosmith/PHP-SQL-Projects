@@ -22,7 +22,7 @@
                 <h1 class="display-4">Project Web Page</h1>
             <p class="lead" style="margin-top:4%">Welcome to William Connolly's PHP project page!</p>
             <hr class="my-4">
-            <p>The Nav Bar above contains the Assignments web pages, where this container will have the Git repository and files.</p>
+            <p>The Navigation Tab above contains the Assignments web pages, where this container will have the Git repository and files.</p>
             <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample" style="margin-bottom: 2%;">
                 PHP Files
             </button>
@@ -57,13 +57,31 @@
                             <div id="WeekOneFiles" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
                             <div class="card-body">
                                 <div class="list-group">
-                                    <a href="../Week 1/hello.zip" class="list-group-item list-group-item-action">Hello</a>
-                                    <a href="../Week 1/FizzBuzz.zip" class="list-group-item list-group-item-action ">FizzBuzz</a>
-                                    <a href="../Week 1/Card Lab 1.zip" class="list-group-item list-group-item-action ">Credit Card</a>
+                                    <a href="../SE266/Week 1/hello.zip" class="list-group-item list-group-item-action">Hello</a>
+                                    <a href="../SE266/Week 1/FizzBuzz.zip" class="list-group-item list-group-item-action ">FizzBuzz</a>
+                                    <a href="../SE266/Week 1/Card Lab 1.zip" class="list-group-item list-group-item-action ">Credit Card</a>
 
                                 </div>
                             </div>
                     </div>
+<!-- New Card Slot -------------------------------------------------->
+                        <div class="card-header" id="headingTwo">
+                            <h5 class="mb-0">
+                              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#WeekTwoFiles" aria-expanded="false" aria-controls="WeekTwoFiles">
+                                Week_2
+                              </button>
+                            </h5>
+                          </div>
+                            <div id="WeekTwoFiles" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                            <div class="card-body">
+                                <div class="list-group">
+                                    <a href="../SE266/Week 2/03add.zip" class="list-group-item list-group-item-action">Add</a>
+                                    <a href="../SE266/Week 2/03view.zip" class="list-group-item list-group-item-action ">View</a>
+                                    <a href="../SE266/Week 2/addActors.zip" class="list-group-item list-group-item-action ">AddActor</a>
+                                    <a href="../SE266/Week 2/viewActors.zip" class="list-group-item list-group-item-action ">ViewActor</a>
+                            </div>
+                        </div>
+                </div>
                         </div>
                     </div>
                 </div>
