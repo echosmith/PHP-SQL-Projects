@@ -82,6 +82,40 @@
                             </div>
                         </div>
                 </div>
+<!-- New Card Slot -------------------------------------------------->
+                        <div class="card-header" id="headingTwo">
+                            <h5 class="mb-0">
+                              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#WeekThreeFiles" aria-expanded="false" aria-controls="WeekThreeFiles">
+                                Week_3
+                              </button>
+                            </h5>
+                          </div>
+                            <div id="WeekThreeFiles" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                            <div class="card-body">
+                                <div class="list-group">
+                                    <a href="../SE266/Week 3/corpCrud.zip" class="list-group-item list-group-item-action">corpCrud</a>
+                                    <a href="../SE266/Week 3/createCrud.zip" class="list-group-item list-group-item-action ">createCrud</a>
+                                    <a href="../SE266/Week 3/deleteCrud.zip" class="list-group-item list-group-item-action ">deleteCrud</a>
+                                    <a href="../SE266/Week 3/readCrud.zip" class="list-group-item list-group-item-action ">readCrud</a>
+                                    <a href="../SE266/Week 3/updateCrud.zip" class="list-group-item list-group-item-action ">updateCrud</a>
+                            </div>
+                        </div>
+                </div>
+<!-- New Card Slot -------------------------------------------------->
+                        <div class="card-header" id="headingTwo">
+                            <h5 class="mb-0">
+                              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#WeekFourFiles" aria-expanded="false" aria-controls="WeekFourFiles">
+                                Week_4
+                              </button>
+                            </h5>
+                          </div>
+                            <div id="WeekFourFiles" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                            <div class="card-body">
+                                <div class="list-group">
+                                    <a href="../SE266/Week 4/form.zip" class="list-group-item list-group-item-action">Form</a>
+                            </div>
+                        </div>
+                </div>
                         </div>
                     </div>
                 </div>

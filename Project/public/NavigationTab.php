@@ -30,6 +30,22 @@
                                     <a class="dropdown-item" href="/008002464/public_html/Spring 2019/SE266/Week 2/viewActors.php">ViewActor</a>
                                 </div>
                             </div>
+                            <div class="btn-group" style="margin-right: 1%;">
+                                <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Week Three
+                                </button>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="/008002464/public_html/Spring 2019/SE266/Week 3/corpCrud.php">corpCrud</a>
+                                </div>
+                            </div>
+                            <div class="btn-group" style="margin-right: 1%;">
+                                <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Week Four
+                                </button>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="/008002464/public_html/Spring 2019/SE266/Week 4/form.php">Form</a>
+                                </div>
+                            </div>
 
                         </ul>
                     </span>
